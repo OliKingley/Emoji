@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3152221EA6718300A05819 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3152211EA6718200A05819 /* EmojiViewController.swift */; };
 		CED14E4A1EA446A60066D4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED14E491EA446A60066D4AE /* AppDelegate.swift */; };
 		CED14E4C1EA446A60066D4AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED14E4B1EA446A60066D4AE /* ViewController.swift */; };
 		CED14E4F1EA446A60066D4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED14E4D1EA446A60066D4AE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3152211EA6718200A05819 /* EmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = SOURCE_ROOT; };
 		CED14E461EA446A60066D4AE /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED14E491EA446A60066D4AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED14E4B1EA446A60066D4AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CED14E491EA446A60066D4AE /* AppDelegate.swift */,
 				CED14E4B1EA446A60066D4AE /* ViewController.swift */,
+				CE3152211EA6718200A05819 /* EmojiViewController.swift */,
 				CED14E4D1EA446A60066D4AE /* Main.storyboard */,
 				CED14E501EA446A60066D4AE /* Assets.xcassets */,
 				CED14E521EA446A60066D4AE /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3152221EA6718300A05819 /* EmojiViewController.swift in Sources */,
 				CED14E4C1EA446A60066D4AE /* ViewController.swift in Sources */,
 				CED14E4A1EA446A60066D4AE /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				CED14E5A1EA446A60066D4AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
